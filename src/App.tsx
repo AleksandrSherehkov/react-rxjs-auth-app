@@ -1,16 +1,7 @@
+import './App.css';
 
-import './App.css'
+export const App = () => {
+  return <div className="text-3xl">APP</div>;
+};
 
-export const App=()=> {
-
-
-  return (
-    
-      <div>
-     APP
-      </div>
-     
-  )
-}
-
-export default App
+export default App;
